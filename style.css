@@ -1,0 +1,57 @@
+body div {
+    margin: 0;
+}
+
+.pageWrapper {
+    margin: 50px;
+}
+
+.header {
+    font-family: 'Google Sans Bold', sans-serif;
+}
+
+.subheader {
+    font-family: 'Google Sans Medium', sans-serif;
+}
+
+.columnwrapper {
+    columns: 2 auto;
+}
+
+.column {
+    display: inline;
+    margin: 0;
+}
+
+.column * {
+    margin: 0;
+}
+
+.column .subCount {
+    padding: 60px 0;
+}
+
+.subCount{
+    font-family: 'Google Sans', sans-serif;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #0002;
+}
+
+.diff {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#subCount3 {
+    background-color: #ee5656;
+    color: #FFF;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+    font-weight: normal;
+}
